@@ -1,0 +1,12 @@
+GET http://localhost:3001/users
+
+###
+
+POST http://localhost:3001/users
+Content-Type: application/json
+
+{
+    "username" : "bittu",
+    "password" : "testpassword",
+    "email" : "blazingbittu1996@gmail.com"
+}
